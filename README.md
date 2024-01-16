@@ -14,3 +14,8 @@ RuoYi-Cloud 是一个 Java EE 分布式微服务架构平台，基于经典技�
 使用Spring Cloud Gateway + Sentinel 实现网关限流。
 
 spring cloud gateway 提供了GlobalFilter ： AuthFilter, XssFilter 对请求进行转义等功能, GatewayFilter : BlackList
+
+## 定时任务
+
+基于Quartz提供定时任务支持，使用Mysql
+
